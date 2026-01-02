@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 set -eu
 
 GITHUB_LATEST_VERSION=$(curl -fsSL https://api.github.com/repos/jesseduffield/lazygit/releases/latest | sed -n 's/.*tag_name\": \"v\([^\"]*\).*/\1/p')
