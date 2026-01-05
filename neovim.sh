@@ -13,8 +13,8 @@ latest_version=$(curl -fsSL \
 )
 
 install_and_update_neovim() {
-  tmpdir=$(mktemp -d)
-  trap 'rm -rf "$tmpdir"' EXIT
+  local tmpdir=$(mktemp -d)
+  trap 'rm -rf "$tmpdir"' RETURN
 
   curl -fsSL \
     -o "${tmpdir}/nvim-linux-x86_64.tar.gz" \
