@@ -49,9 +49,9 @@ if [ "$current_version" = '0.0.0.00000' ]; then
   echo "Installing JetBrains Toolbox: ${latest_version}"
   install_and_update_jetbrains_toolbox
 elif [ "$current_version" = "$latest_version" ]; then
-  echo "Neovim is up to date: ${current_version}"
+  echo "JetBrains Toolbox is up to date: ${current_version}"
 else
-  echo "Updating Neovim: ${current_version} -> ${latest_version}"
+  echo "Updating JetBrains Toolbox: ${current_version} -> ${latest_version}"
   install_and_update_jetbrains_toolbox
 fi
 
