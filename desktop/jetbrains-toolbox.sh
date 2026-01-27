@@ -1,14 +1,14 @@
 #!/usr/bin/env bash
 set -eu
 
-tba=$(curl -fsSL 'https://data.services.jetbrains.com/products/releases?code=TBA&latest=true' \
-  | jq -r '.TBA[0]'
-)
 if [ -e "$HOME/.local/opt/jetbrains-toolbox/current/bin/build.txt" ]; then
     current_version=$(cat "${HOME}/.local/opt/jetbrains-toolbox/current/bin/build.txt")
 else
   current_version='0.0.0.00000'
 fi
+tba=$(curl -fsSL 'https://data.services.jetbrains.com/products/releases?code=TBA&latest=true' \
+  | jq -r '.TBA[0]'
+)
 latest_version=$(echo "$tba" | jq -r '.build')
 
 install_and_update_jetbrains_toolbox() {
