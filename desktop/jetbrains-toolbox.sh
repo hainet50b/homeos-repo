@@ -4,11 +4,6 @@ set -eu
 tba=$(curl -fsSL 'https://data.services.jetbrains.com/products/releases?code=TBA&latest=true' \
   | jq -r '.TBA[0]'
 )
-linux=$(echo "$tba" | jq -r '.downloads.linux')
-
-bin_link=$(echo "$linux" | jq -r '.link')
-checksum_link=$(echo "$linux" | jq -r '.checksumLink')
-
 if [ -e "$HOME/.local/opt/jetbrains-toolbox/current/bin/build.txt" ]; then
     current_version=$(cat "${HOME}/.local/opt/jetbrains-toolbox/current/bin/build.txt")
 else
@@ -21,6 +16,11 @@ install_and_update_jetbrains_toolbox() {
   trap 'rm -rf "$tmpdir"' RETURN
 
   cd "$tmpdir"
+
+  local linux=$(echo "$tba" | jq -r '.downloads.linux')
+
+  local bin_link=$(echo "$linux" | jq -r '.link')
+  local checksum_link=$(echo "$linux" | jq -r '.checksumLink')
 
   curl -fsSL -O "$bin_link"
   curl -fsSL -O "$checksum_link"
