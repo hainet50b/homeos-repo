@@ -15,12 +15,12 @@ install_and_update_jetbrains_toolbox() {
   local tmpdir=$(mktemp -d)
   trap 'rm -rf "$tmpdir"' RETURN
 
-  cd "$tmpdir"
-
   local linux=$(echo "$tba" | jq -r '.downloads.linux')
 
   local bin_link=$(echo "$linux" | jq -r '.link')
   local checksum_link=$(echo "$linux" | jq -r '.checksumLink')
+
+  cd "$tmpdir"
 
   curl -fsSL -O "$bin_link"
   curl -fsSL -O "$checksum_link"
