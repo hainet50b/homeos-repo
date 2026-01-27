@@ -9,8 +9,8 @@ linux=$(echo "$tba" | jq -r '.downloads.linux')
 bin_link=$(echo "$linux" | jq -r '.link')
 checksum_link=$(echo "$linux" | jq -r '.checksumLink')
 
-if [ -e "$HOME/.local/opt/jetbrains-toolbox/bin/build.txt" ]; then
-    current_version=$(cat "${HOME}/.local/opt/jetbrains-toolbox/bin/build.txt")
+if [ -e "$HOME/.local/opt/jetbrains-toolbox/current/bin/build.txt" ]; then
+    current_version=$(cat "${HOME}/.local/opt/jetbrains-toolbox/current/bin/build.txt")
 else
   current_version='0.0.0.00000'
 fi
