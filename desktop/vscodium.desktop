@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Version=1.5
+Name=VSCodium
+Comment=Free/Libre Open Source Software Binaries of VS Code
+Icon=vscodium
+Exec=codium %F
+Terminal=false
+Categories=Development;IDE;TextEditor;
+StartupNotify=true
+StartupWMClass=VSCodium
+
