@@ -78,3 +78,8 @@ packages:
     actions_overrides: { update: install }
   wezterm:
     tags: [desktop, home, work]
+
+recipes:
+  nvidia: {}
+  japanese-input:
+    tags: [desktop, home]
