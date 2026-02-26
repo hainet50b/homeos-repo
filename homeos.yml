@@ -53,6 +53,9 @@ packages:
   vacuum:
     tags: [cli, home, work]
     actions_overrides: { update: install }
+  claude:
+    tags: [cli, home, work]
+    actions_overrides: { update: install }
   brave:
     tags: [desktop, home]
   fcitx5-mozc:
@@ -77,6 +80,8 @@ packages:
     tags: [desktop, home]
     actions_overrides: { update: install }
   wezterm:
+    tags: [desktop, home, work]
+  zoom:
     tags: [desktop, home, work]
 
 recipes:
