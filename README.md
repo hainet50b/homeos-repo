@@ -19,6 +19,7 @@ homeos apply
 | [brave](packages/brave/) | [winget](plugins/winget/) | — | Privacy-focused Chromium-based web browser. |
 | [claude-code](packages/claude-code/) | [winget](plugins/winget/) | — | Anthropic's agentic coding tool for the terminal. |
 | [git](packages/git/) | [winget](plugins/winget/) | — | Distributed version control system (Git for Windows). |
+| [lenovo-vantage](packages/lenovo-vantage/) (disabled) | [winget](plugins/winget/) | — | Driver and hardware management tool for Lenovo machines. |
 
 ## Plugins
 
