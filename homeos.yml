@@ -15,6 +15,10 @@ packages:
     plugin: winget
     params:
       id: Git.Git
+  google-japanese-ime:
+    plugin: winget
+    params:
+      id: Google.JapaneseIME
   lenovo-vantage:
     enabled: false
     plugin: winget
