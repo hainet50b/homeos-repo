@@ -25,6 +25,10 @@ packages:
     plugin: winget
     params:
       id: 9WZDNCRFJ4MV
+  obsidian:
+    plugin: winget
+    params:
+      id: Obsidian.Obsidian
   proton-drive:
     plugin: winget
     params:
