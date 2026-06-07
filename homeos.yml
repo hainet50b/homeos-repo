@@ -19,6 +19,11 @@ packages:
     plugin: winget
     params:
       id: Google.JapaneseIME
+  homeos:
+    script_aliases:
+      update: install
+    depends_on:
+    - git
   lenovo-vantage:
     enabled: false
     plugin: winget

@@ -21,6 +21,7 @@ homeos apply
 | [claude-code](packages/claude-code/) | [winget](plugins/winget/) | — | Anthropic's agentic coding tool for the terminal. |
 | [git](packages/git/) | [winget](plugins/winget/) | — | Distributed version control system (Git for Windows). |
 | [google-japanese-ime](packages/google-japanese-ime/) | [winget](plugins/winget/) | — | Japanese input method editor by Google. |
+| [homeos](packages/homeos/) | — | git | homeos itself, via the official install script. |
 | [lenovo-vantage](packages/lenovo-vantage/) (disabled) | [winget](plugins/winget/) | — | Driver and hardware management tool for Lenovo machines. |
 
 ## Plugins
