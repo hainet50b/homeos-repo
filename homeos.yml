@@ -53,6 +53,10 @@ packages:
     plugin: winget
     params:
       id: Proton.ProtonVPN
+  wave-terminal:
+    plugin: winget
+    params:
+      id: CommandLine.Wave
 plugins:
   winget:
     url: https://github.com/hainet50b/homeos-plugin-winget
