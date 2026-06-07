@@ -25,6 +25,10 @@ packages:
     plugin: winget
     params:
       id: 9WZDNCRFJ4MV
+  proton-mail:
+    plugin: winget
+    params:
+      id: Proton.ProtonMail
   proton-pass:
     plugin: winget
     params:
