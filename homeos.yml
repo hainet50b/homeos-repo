@@ -11,6 +11,10 @@ packages:
     plugin: winget
     params:
       id: Anthropic.ClaudeCode
+  coreutils:
+    plugin: winget
+    params:
+      id: Microsoft.Coreutils
   git:
     plugin: winget
     params:
