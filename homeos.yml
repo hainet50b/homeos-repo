@@ -33,6 +33,10 @@ packages:
     plugin: winget
     params:
       id: Obsidian.Obsidian
+  powershell:
+    plugin: winget
+    params:
+      id: Microsoft.PowerShell
   proton-drive:
     plugin: winget
     params:
