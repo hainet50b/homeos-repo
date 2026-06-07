@@ -1,4 +1,8 @@
 packages:
+  brave:
+    plugin: winget
+    params:
+      id: Brave.Brave
   claude-code:
     plugin: winget
     params:
