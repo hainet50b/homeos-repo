@@ -1,4 +1,8 @@
 packages:
+  claude-code:
+    plugin: winget
+    params:
+      id: Anthropic.ClaudeCode
   git:
     plugin: winget
     params:
