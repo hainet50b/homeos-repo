@@ -25,6 +25,10 @@ packages:
     plugin: winget
     params:
       id: 9WZDNCRFJ4MV
+  proton-drive:
+    plugin: winget
+    params:
+      id: Proton.ProtonDrive
   proton-mail:
     plugin: winget
     params:
