@@ -29,6 +29,10 @@ packages:
     plugin: winget
     params:
       id: 9WZDNCRFJ4MV
+  proton-pass:
+    plugin: winget
+    params:
+      id: Proton.ProtonPass
 plugins:
   winget:
     url: https://github.com/hainet50b/homeos-plugin-winget

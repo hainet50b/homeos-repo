@@ -23,6 +23,7 @@ homeos apply
 | [google-japanese-ime](packages/google-japanese-ime/) | [winget](plugins/winget/) | — | Japanese input method editor by Google. |
 | [homeos](packages/homeos/) | — | git | homeos itself, via the official install script. |
 | [lenovo-vantage](packages/lenovo-vantage/) (disabled) | [winget](plugins/winget/) | — | Driver and hardware management tool for Lenovo machines. |
+| [proton-pass](packages/proton-pass/) | [winget](plugins/winget/) | — | Password manager by Proton with end-to-end encryption. |
 
 ## Plugins
 
