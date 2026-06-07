@@ -1,0 +1,8 @@
+packages:
+  git:
+    plugin: winget
+    params:
+      id: Git.Git
+plugins:
+  winget:
+    url: https://github.com/hainet50b/homeos-plugin-winget
