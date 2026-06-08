@@ -140,6 +140,12 @@ packages:
     plugin: winget
     params:
       id: Proton.ProtonVPN
+  python:
+    depends_on:
+    - mise
+    plugin: mise
+    params:
+      tool: python@3.13
   ripgrep:
     plugin: winget
     params:
