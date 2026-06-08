@@ -59,6 +59,14 @@ packages:
     plugin: winget
     params:
       id: Rustlang.Rustup
+  vcredist-x64:
+    plugin: winget
+    params:
+      id: Microsoft.VCRedist.2015+.x64
+  vcredist-x86:
+    plugin: winget
+    params:
+      id: Microsoft.VCRedist.2015+.x86
   vs-buildtools:
     plugin: winget
     params:
