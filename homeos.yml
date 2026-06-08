@@ -1,4 +1,8 @@
 packages:
+  anki:
+    plugin: winget
+    params:
+      id: Anki.Anki
   brave:
     plugin: winget
     params:
