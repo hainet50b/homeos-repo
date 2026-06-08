@@ -54,9 +54,15 @@ packages:
     params:
       id: Proton.ProtonVPN
   rustup:
+    depends_on:
+    - vs-buildtools
     plugin: winget
     params:
       id: Rustlang.Rustup
+  vs-buildtools:
+    plugin: winget
+    params:
+      id: Microsoft.VisualStudio.2022.BuildTools
   wave-terminal:
     plugin: winget
     params:
