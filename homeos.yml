@@ -75,6 +75,7 @@ packages:
     plugin: winget
     params:
       id: CommandLine.Wave
+  wsl: {}
   zed:
     plugin: winget
     params:
