@@ -104,6 +104,10 @@ packages:
     params:
       id: jdx.mise
   monaspace-nerd-font: {}
+  neovim:
+    plugin: winget
+    params:
+      id: Neovim.Neovim
   node:
     depends_on:
     - mise

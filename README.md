@@ -43,6 +43,7 @@ homeos apply
 | [maven](packages/maven/) | [mise](plugins/mise/) | mise | Apache Maven build and dependency management tool for Java. |
 | [mise](packages/mise/) | [winget](plugins/winget/) | — | Dev environment manager for languages, env vars, and tasks. |
 | [monaspace-nerd-font](packages/monaspace-nerd-font/) | — | — | Nerd Fonts-patched Monaspace (Mono), per-user install. |
+| [neovim](packages/neovim/) | [winget](plugins/winget/) | — | Hyperextensible terminal text editor (Vim fork). |
 | [node](packages/node/) | [mise](plugins/mise/) | mise | Node.js 24 (LTS) JavaScript runtime and npm. |
 | [noto-sans-cjk-jp](packages/noto-sans-cjk-jp/) | — | — | Proportional Japanese font (CJK fallback for UI). |
 | [noto-sans-mono-cjk-jp](packages/noto-sans-mono-cjk-jp/) | — | — | Monospace Japanese font (CJK fallback for editors/terminals). |
