@@ -29,6 +29,7 @@ homeos apply
 | [proton-mail](packages/proton-mail/) | [winget](plugins/winget/) | — | Encrypted email client by Proton. |
 | [proton-pass](packages/proton-pass/) | [winget](plugins/winget/) | — | Password manager by Proton with end-to-end encryption. |
 | [proton-vpn](packages/proton-vpn/) | [winget](plugins/winget/) | — | VPN client by Proton with encrypted tunneling. |
+| [rustup](packages/rustup/) | [winget](plugins/winget/) | — | Rust toolchain installer and version manager. |
 | [wave-terminal](packages/wave-terminal/) | [winget](plugins/winget/) | — | Open-source AI-native terminal by Command Line Inc. |
 | [zed](packages/zed/) | [winget](plugins/winget/) | — | High-performance code editor written in Rust. |
 

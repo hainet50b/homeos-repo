@@ -53,6 +53,10 @@ packages:
     plugin: winget
     params:
       id: Proton.ProtonVPN
+  rustup:
+    plugin: winget
+    params:
+      id: Rustlang.Rustup
   wave-terminal:
     plugin: winget
     params:
