@@ -3,6 +3,10 @@ packages:
     plugin: winget
     params:
       id: Anki.Anki
+  bat:
+    plugin: winget
+    params:
+      id: sharkdp.bat
   brave:
     plugin: winget
     params:

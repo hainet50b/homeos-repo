@@ -16,6 +16,7 @@ homeos apply
 
 | Package | Plugin | Dependencies | Purpose |
 |---|---|---|---|
+| [bat](packages/bat/) | [winget](plugins/winget/) | — | `cat` clone with syntax highlighting and Git integration. |
 | [coreutils](packages/coreutils/) | [winget](plugins/winget/) | — | Native Unix-style command-line utilities by Microsoft. |
 | [eza](packages/eza/) | [winget](plugins/winget/) | — | Modern `ls` replacement with colors, icons, and Git status. |
 | [fzf](packages/fzf/) | [winget](plugins/winget/) | — | General-purpose command-line fuzzy finder. |
