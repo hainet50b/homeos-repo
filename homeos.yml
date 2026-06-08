@@ -31,6 +31,10 @@ packages:
     plugin: winget
     params:
       id: eza-community.eza
+  fd:
+    plugin: winget
+    params:
+      id: sharkdp.fd
   fzf:
     plugin: winget
     params:
