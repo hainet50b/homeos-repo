@@ -15,6 +15,10 @@ packages:
     plugin: winget
     params:
       id: 9NT1R1C2HH7J
+  chezmoi:
+    plugin: winget
+    params:
+      id: twpayne.chezmoi
   claude-code:
     plugin: winget
     params:
