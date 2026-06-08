@@ -23,6 +23,10 @@ packages:
     plugin: winget
     params:
       id: Microsoft.Coreutils
+  delta:
+    plugin: winget
+    params:
+      id: dandavison.delta
   docker-desktop:
     plugin: winget
     params:

@@ -18,6 +18,7 @@ homeos apply
 |---|---|---|---|
 | [bat](packages/bat/) | [winget](plugins/winget/) | — | `cat` clone with syntax highlighting and Git integration. |
 | [coreutils](packages/coreutils/) | [winget](plugins/winget/) | — | Native Unix-style command-line utilities by Microsoft. |
+| [delta](packages/delta/) | [winget](plugins/winget/) | — | Syntax-highlighting pager for git, diff, and grep output. |
 | [eza](packages/eza/) | [winget](plugins/winget/) | — | Modern `ls` replacement with colors, icons, and Git status. |
 | [fd](packages/fd/) | [winget](plugins/winget/) | — | Simple, fast, user-friendly `find` alternative. |
 | [fzf](packages/fzf/) | [winget](plugins/winget/) | — | General-purpose command-line fuzzy finder. |
