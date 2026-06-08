@@ -47,6 +47,12 @@ packages:
     plugin: winget
     params:
       id: 9WZDNCRFJ4MV
+  maven:
+    depends_on:
+    - mise
+    plugin: mise
+    params:
+      tool: maven@3
   mise:
     plugin: winget
     params:
