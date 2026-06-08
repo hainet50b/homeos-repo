@@ -110,6 +110,7 @@ packages:
     plugin: mise
     params:
       tool: node@24
+  noto-sans-mono-cjk-jp: {}
   obsidian:
     plugin: winget
     params:
