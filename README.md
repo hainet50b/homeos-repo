@@ -48,6 +48,7 @@ homeos apply
 | [proton-vpn](packages/proton-vpn/) | [winget](plugins/winget/) | — | VPN client by Proton with encrypted tunneling. |
 | [anki](packages/anki/) | [winget](plugins/winget/) | — | Spaced-repetition flashcard app for memorization (launcher-managed). |
 | [chatgpt](packages/chatgpt/) | [winget](plugins/winget/) | — | Official ChatGPT desktop app by OpenAI. |
+| [jetbrains-toolbox](packages/jetbrains-toolbox/) | [winget](plugins/winget/) | — | Launcher to install and manage JetBrains IDEs. |
 | [lenovo-vantage](packages/lenovo-vantage/) (disabled) | [winget](plugins/winget/) | — | Driver and hardware management tool for Lenovo machines. |
 | [obsidian](packages/obsidian/) | [winget](plugins/winget/) | — | Markdown-based note-taking and knowledge base app. |
 
