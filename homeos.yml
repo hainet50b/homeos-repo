@@ -119,6 +119,10 @@ packages:
     plugin: winget
     params:
       id: Rustlang.Rustup
+  starship:
+    plugin: winget
+    params:
+      id: Starship.Starship
   vcredist-x64:
     plugin: winget
     params:
