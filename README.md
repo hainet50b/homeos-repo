@@ -25,6 +25,7 @@ homeos apply
 | [wsl](packages/wsl/) | — | — | Windows Subsystem for Linux, installed without a default distribution. |
 | [yazi](packages/yazi/) | [winget](plugins/winget/) | — | Blazing-fast terminal file manager written in Rust. |
 | [claude-code](packages/claude-code/) | [winget](plugins/winget/) | — | Anthropic's agentic coding tool for the terminal. |
+| [gradle](packages/gradle/) | [mise](plugins/mise/) | mise | Gradle build automation tool for JVM projects. |
 | [jdk-temurin-25](packages/jdk-temurin-25/) | [mise](plugins/mise/) | mise | Eclipse Temurin OpenJDK 25 (LTS) runtime and compiler. |
 | [lazydocker](packages/lazydocker/) | [winget](plugins/winget/) | — | Terminal UI for Docker and docker-compose. |
 | [lazygit](packages/lazygit/) | [winget](plugins/winget/) | — | Terminal UI for git commands. |

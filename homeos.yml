@@ -23,6 +23,12 @@ packages:
     plugin: winget
     params:
       id: Git.Git
+  gradle:
+    depends_on:
+    - mise
+    plugin: mise
+    params:
+      tool: gradle@9
   homeos:
     script_aliases:
       update: install
