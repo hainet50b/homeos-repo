@@ -38,6 +38,10 @@ packages:
     plugin: winget
     params:
       id: JesseDuffield.Lazydocker
+  lazygit:
+    plugin: winget
+    params:
+      id: JesseDuffield.lazygit
   lenovo-vantage:
     enabled: false
     plugin: winget
