@@ -87,6 +87,10 @@ packages:
     plugin: winget
     params:
       id: Proton.ProtonVPN
+  ripgrep:
+    plugin: winget
+    params:
+      id: BurntSushi.ripgrep.MSVC
   rustup:
     depends_on:
     - vs-buildtools
