@@ -23,6 +23,10 @@ packages:
     plugin: winget
     params:
       id: Docker.DockerDesktop
+  fzf:
+    plugin: winget
+    params:
+      id: junegunn.fzf
   gh:
     plugin: winget
     params:
