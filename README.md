@@ -24,6 +24,7 @@ homeos apply
 | [powershell](packages/powershell/) | [winget](plugins/winget/) | — | Cross-platform PowerShell 7 shell and scripting language. |
 | [wave-terminal](packages/wave-terminal/) | [winget](plugins/winget/) | — | Open-source AI-native terminal by Command Line Inc. |
 | [wsl](packages/wsl/) | — | — | Windows Subsystem for Linux, installed without a default distribution. |
+| [wsl-ubuntu](packages/wsl-ubuntu/) | — | wsl | Ubuntu (latest LTS) distribution registered under WSL2. |
 | [yazi](packages/yazi/) | [winget](plugins/winget/) | — | Blazing-fast terminal file manager written in Rust. |
 | [claude-code](packages/claude-code/) | [winget](plugins/winget/) | — | Anthropic's agentic coding tool for the terminal. |
 | [docker-desktop](packages/docker-desktop/) | [winget](plugins/winget/) | — | Docker container runtime and management GUI (WSL2 backend). |

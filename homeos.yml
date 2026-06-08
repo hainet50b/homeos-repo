@@ -132,6 +132,9 @@ packages:
     params:
       id: CommandLine.Wave
   wsl: {}
+  wsl-ubuntu:
+    depends_on:
+    - wsl
   yazi:
     plugin: winget
     params:
