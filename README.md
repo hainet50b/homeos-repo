@@ -23,6 +23,7 @@ homeos apply
 | [powershell](packages/powershell/) | [winget](plugins/winget/) | — | Cross-platform PowerShell 7 shell and scripting language. |
 | [wave-terminal](packages/wave-terminal/) | [winget](plugins/winget/) | — | Open-source AI-native terminal by Command Line Inc. |
 | [wsl](packages/wsl/) | — | — | Windows Subsystem for Linux, installed without a default distribution. |
+| [yazi](packages/yazi/) | [winget](plugins/winget/) | — | Blazing-fast terminal file manager written in Rust. |
 | [claude-code](packages/claude-code/) | [winget](plugins/winget/) | — | Anthropic's agentic coding tool for the terminal. |
 | [jdk-temurin-25](packages/jdk-temurin-25/) | [mise](plugins/mise/) | mise | Eclipse Temurin OpenJDK 25 (LTS) runtime and compiler. |
 | [lazydocker](packages/lazydocker/) | [winget](plugins/winget/) | — | Terminal UI for Docker and docker-compose. |

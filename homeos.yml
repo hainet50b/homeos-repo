@@ -114,6 +114,10 @@ packages:
     params:
       id: CommandLine.Wave
   wsl: {}
+  yazi:
+    plugin: winget
+    params:
+      id: sxyazi.yazi
   zed:
     plugin: winget
     params:
