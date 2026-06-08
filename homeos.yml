@@ -24,6 +24,12 @@ packages:
       update: install
     depends_on:
     - git
+  jdk-temurin-25:
+    depends_on:
+    - mise
+    plugin: mise
+    params:
+      tool: java@temurin-25
   lenovo-vantage:
     enabled: false
     plugin: winget
@@ -85,5 +91,7 @@ packages:
     params:
       id: ZedIndustries.Zed
 plugins:
+  mise:
+    url: https://github.com/hainet50b/homeos-plugin-mise
   winget:
     url: https://github.com/hainet50b/homeos-plugin-winget
