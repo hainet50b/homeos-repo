@@ -29,6 +29,10 @@ packages:
     plugin: winget
     params:
       id: 9WZDNCRFJ4MV
+  mise:
+    plugin: winget
+    params:
+      id: jdx.mise
   obsidian:
     plugin: winget
     params:
