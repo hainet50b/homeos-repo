@@ -50,6 +50,7 @@ homeos apply
 | [python](packages/python/) | [mise](plugins/mise/) | mise | Python 3.13 runtime and pip. |
 | [ripgrep](packages/ripgrep/) | [winget](plugins/winget/) | — | Fast recursive regex search tool (`rg`) that respects gitignore. |
 | [rustup](packages/rustup/) | [winget](plugins/winget/) | vs-buildtools | Rust toolchain installer and version manager. |
+| [uv](packages/uv/) | [winget](plugins/winget/) | — | Fast Python package, venv, and tool manager (Astral). |
 | [vcredist-x64](packages/vcredist-x64/) | [winget](plugins/winget/) | — | Visual C++ 2015-2022 Redistributable (x64). |
 | [vcredist-x86](packages/vcredist-x86/) | [winget](plugins/winget/) | — | Visual C++ 2015-2022 Redistributable (x86). |
 | [vs-buildtools](packages/vs-buildtools/) | [winget](plugins/winget/) | — | MSVC C++ build tools and Windows SDK. |

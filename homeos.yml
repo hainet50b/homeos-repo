@@ -160,6 +160,10 @@ packages:
     plugin: winget
     params:
       id: Starship.Starship
+  uv:
+    plugin: winget
+    params:
+      id: astral-sh.uv
   vcredist-x64:
     plugin: winget
     params:
