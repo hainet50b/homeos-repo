@@ -15,6 +15,10 @@ packages:
     plugin: winget
     params:
       id: Microsoft.Coreutils
+  gh:
+    plugin: winget
+    params:
+      id: GitHub.cli
   git:
     plugin: winget
     params:

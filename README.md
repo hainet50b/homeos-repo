@@ -17,6 +17,7 @@ homeos apply
 | Package | Plugin | Dependencies | Purpose |
 |---|---|---|---|
 | [coreutils](packages/coreutils/) | [winget](plugins/winget/) | — | Native Unix-style command-line utilities by Microsoft. |
+| [gh](packages/gh/) | [winget](plugins/winget/) | — | GitHub CLI for pull requests, issues, and Actions from the terminal. |
 | [git](packages/git/) | [winget](plugins/winget/) | — | Distributed version control system (Git for Windows). |
 | [homeos](packages/homeos/) | — | git | homeos itself, via the official install script. |
 | [powershell](packages/powershell/) | [winget](plugins/winget/) | — | Cross-platform PowerShell 7 shell and scripting language. |
