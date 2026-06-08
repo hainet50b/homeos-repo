@@ -41,6 +41,7 @@ homeos apply
 | [lazygit](packages/lazygit/) | [winget](plugins/winget/) | — | Terminal UI for git commands. |
 | [maven](packages/maven/) | [mise](plugins/mise/) | mise | Apache Maven build and dependency management tool for Java. |
 | [mise](packages/mise/) | [winget](plugins/winget/) | — | Dev environment manager for languages, env vars, and tasks. |
+| [monaspace-nerd-font](packages/monaspace-nerd-font/) | — | — | Nerd Fonts-patched Monaspace (Mono), per-user install. |
 | [node](packages/node/) | [mise](plugins/mise/) | mise | Node.js 24 (LTS) JavaScript runtime and npm. |
 | [ripgrep](packages/ripgrep/) | [winget](plugins/winget/) | — | Fast recursive regex search tool (`rg`) that respects gitignore. |
 | [rustup](packages/rustup/) | [winget](plugins/winget/) | vs-buildtools | Rust toolchain installer and version manager. |

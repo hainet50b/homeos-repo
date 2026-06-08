@@ -99,6 +99,7 @@ packages:
     plugin: winget
     params:
       id: jdx.mise
+  monaspace-nerd-font: {}
   node:
     depends_on:
     - mise
