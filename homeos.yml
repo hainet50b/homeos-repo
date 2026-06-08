@@ -23,6 +23,10 @@ packages:
     plugin: winget
     params:
       id: Anthropic.ClaudeCode
+  codex:
+    plugin: winget
+    params:
+      id: OpenAI.Codex
   coreutils:
     plugin: winget
     params:
