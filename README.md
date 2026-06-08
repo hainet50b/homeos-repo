@@ -30,6 +30,7 @@ homeos apply
 | [proton-pass](packages/proton-pass/) | [winget](plugins/winget/) | — | Password manager by Proton with end-to-end encryption. |
 | [proton-vpn](packages/proton-vpn/) | [winget](plugins/winget/) | — | VPN client by Proton with encrypted tunneling. |
 | [wave-terminal](packages/wave-terminal/) | [winget](plugins/winget/) | — | Open-source AI-native terminal by Command Line Inc. |
+| [zed](packages/zed/) | [winget](plugins/winget/) | — | High-performance code editor written in Rust. |
 
 ## Plugins
 
