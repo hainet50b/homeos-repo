@@ -29,6 +29,7 @@ homeos apply
 | [lazygit](packages/lazygit/) | [winget](plugins/winget/) | — | Terminal UI for git commands. |
 | [maven](packages/maven/) | [mise](plugins/mise/) | mise | Apache Maven build and dependency management tool for Java. |
 | [mise](packages/mise/) | [winget](plugins/winget/) | — | Dev environment manager for languages, env vars, and tasks. |
+| [node](packages/node/) | [mise](plugins/mise/) | mise | Node.js 24 (LTS) JavaScript runtime and npm. |
 | [rustup](packages/rustup/) | [winget](plugins/winget/) | vs-buildtools | Rust toolchain installer and version manager. |
 | [vcredist-x64](packages/vcredist-x64/) | [winget](plugins/winget/) | — | Visual C++ 2015-2022 Redistributable (x64). |
 | [vcredist-x86](packages/vcredist-x86/) | [winget](plugins/winget/) | — | Visual C++ 2015-2022 Redistributable (x86). |

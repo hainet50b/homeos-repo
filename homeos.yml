@@ -57,6 +57,12 @@ packages:
     plugin: winget
     params:
       id: jdx.mise
+  node:
+    depends_on:
+    - mise
+    plugin: mise
+    params:
+      tool: node@24
   obsidian:
     plugin: winget
     params:
