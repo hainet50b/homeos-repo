@@ -40,6 +40,10 @@ packages:
     plugin: mise
     params:
       tool: java@temurin-25
+  jq:
+    plugin: winget
+    params:
+      id: jqlang.jq
   lazydocker:
     plugin: winget
     params:
