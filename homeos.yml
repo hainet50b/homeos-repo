@@ -19,6 +19,10 @@ packages:
     plugin: winget
     params:
       id: Microsoft.Coreutils
+  docker-desktop:
+    plugin: winget
+    params:
+      id: Docker.DockerDesktop
   gh:
     plugin: winget
     params:
