@@ -27,6 +27,7 @@ homeos apply
 | [wsl](packages/wsl/) | — | — | Windows Subsystem for Linux, installed without a default distribution. |
 | [wsl-ubuntu](packages/wsl-ubuntu/) | — | wsl | Ubuntu (latest LTS) distribution registered under WSL2. |
 | [yazi](packages/yazi/) | [winget](plugins/winget/) | — | Blazing-fast terminal file manager written in Rust. |
+| [zoxide](packages/zoxide/) | [winget](plugins/winget/) | — | Smarter `cd` that jumps to frequently used directories. |
 | [claude-code](packages/claude-code/) | [winget](plugins/winget/) | — | Anthropic's agentic coding tool for the terminal. |
 | [docker-desktop](packages/docker-desktop/) | [winget](plugins/winget/) | — | Docker container runtime and management GUI (WSL2 backend). |
 | [gradle](packages/gradle/) | [mise](plugins/mise/) | mise | Gradle build automation tool for JVM projects. |
