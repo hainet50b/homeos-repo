@@ -1,1 +1,1 @@
-winget install --exact --id Anthropic.ClaudeCode --silent --accept-source-agreements --accept-package-agreements
+irm https://claude.ai/install.ps1 | iex
