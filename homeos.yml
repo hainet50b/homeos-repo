@@ -19,6 +19,10 @@ packages:
     plugin: winget
     params:
       id: twpayne.chezmoi
+  claude:
+    plugin: winget
+    params:
+      id: Anthropic.Claude
   claude-code:
     plugin: winget
     params:
