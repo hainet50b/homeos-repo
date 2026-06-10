@@ -1,1 +1,1 @@
-winget upgrade --exact --id OpenAI.Codex --silent --accept-source-agreements --accept-package-agreements
+winget upgrade --exact --id 9PLM9XGG6VKS --silent --accept-source-agreements --accept-package-agreements

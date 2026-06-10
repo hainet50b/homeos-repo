@@ -27,6 +27,10 @@ packages:
   codex:
     plugin: winget
     params:
+      id: 9PLM9XGG6VKS
+  codex-cli:
+    plugin: winget
+    params:
       id: OpenAI.Codex
   coreutils:
     plugin: winget

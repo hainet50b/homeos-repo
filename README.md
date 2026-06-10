@@ -35,7 +35,7 @@ homeos apply
 | [yazi](packages/yazi/) | [winget](plugins/winget/) | — | Blazing-fast terminal file manager written in Rust. |
 | [zoxide](packages/zoxide/) | [winget](plugins/winget/) | — | Smarter `cd` that jumps to frequently used directories. |
 | [claude-code](packages/claude-code/) | — | — | Anthropic's agentic coding tool for the terminal; official native install that auto-updates. |
-| [codex](packages/codex/) | [winget](plugins/winget/) | — | OpenAI's open-source local coding agent for the terminal. |
+| [codex-cli](packages/codex-cli/) | [winget](plugins/winget/) | — | OpenAI's coding agent CLI for the terminal. |
 | [docker-desktop](packages/docker-desktop/) | [winget](plugins/winget/) | — | Docker container runtime and management GUI (WSL2 backend). |
 | [gradle](packages/gradle/) | [mise](plugins/mise/) | mise | Gradle build automation tool for JVM projects. |
 | [jdk-temurin-25](packages/jdk-temurin-25/) | [mise](plugins/mise/) | mise | Eclipse Temurin OpenJDK 25 (LTS) runtime and compiler. |
@@ -64,6 +64,7 @@ homeos apply
 | [anki](packages/anki/) | [winget](plugins/winget/) | — | Spaced-repetition flashcard app for memorization (launcher-managed). |
 | [chatgpt](packages/chatgpt/) | [winget](plugins/winget/) | — | Official ChatGPT desktop app by OpenAI. |
 | [claude](packages/claude/) | [winget](plugins/winget/) | — | Official Claude desktop app by Anthropic. |
+| [codex](packages/codex/) | [winget](plugins/winget/) | — | Official Codex desktop app by OpenAI; command center for agentic coding. |
 | [jetbrains-toolbox](packages/jetbrains-toolbox/) | [winget](plugins/winget/) | — | Launcher to install and manage JetBrains IDEs. |
 | [lenovo-vantage](packages/lenovo-vantage/) (disabled) | [winget](plugins/winget/) | — | Driver and hardware management tool for Lenovo machines. |
 | [obsidian](packages/obsidian/) | [winget](plugins/winget/) | — | Markdown-based note-taking and knowledge base app. |

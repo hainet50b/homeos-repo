@@ -1,1 +1,1 @@
-winget uninstall --exact --id OpenAI.Codex
+winget uninstall --exact --id 9PLM9XGG6VKS
