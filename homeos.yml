@@ -169,6 +169,10 @@ packages:
     plugin: winget
     params:
       id: koalaman.shellcheck
+  shfmt:
+    plugin: winget
+    params:
+      id: mvdan.shfmt
   starship:
     plugin: winget
     params:
