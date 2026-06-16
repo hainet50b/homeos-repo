@@ -165,6 +165,10 @@ packages:
     plugin: winget
     params:
       id: Rustlang.Rustup
+  shellcheck:
+    plugin: winget
+    params:
+      id: koalaman.shellcheck
   starship:
     plugin: winget
     params:

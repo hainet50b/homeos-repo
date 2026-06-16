@@ -28,6 +28,7 @@ homeos apply
 | [homeos](packages/homeos/) | — | git | homeos itself, via the official install script. |
 | [jq](packages/jq/) | [winget](plugins/winget/) | — | Lightweight command-line JSON processor. |
 | [powershell](packages/powershell/) | [winget](plugins/winget/) | — | Cross-platform PowerShell 7 shell and scripting language. |
+| [shellcheck](packages/shellcheck/) | [winget](plugins/winget/) | — | Static analysis linter for bash/sh shell scripts. |
 | [starship](packages/starship/) | [winget](plugins/winget/) | — | Minimal, fast, customizable cross-shell prompt. |
 | [wave-terminal](packages/wave-terminal/) | [winget](plugins/winget/) | — | Open-source AI-native terminal by Command Line Inc. |
 | [wsl](packages/wsl/) | — | — | Windows Subsystem for Linux, installed without a default distribution. |
