@@ -69,6 +69,7 @@ homeos apply
 | [codex](packages/codex/) | [winget](plugins/winget/) | — | Official Codex desktop app by OpenAI; command center for agentic coding. |
 | [jetbrains-toolbox](packages/jetbrains-toolbox/) | [winget](plugins/winget/) | — | Launcher to install and manage JetBrains IDEs. |
 | [lenovo-vantage](packages/lenovo-vantage/) (disabled) | [winget](plugins/winget/) | — | Driver and hardware management tool for Lenovo machines. |
+| [libreoffice](packages/libreoffice/) | [winget](plugins/winget/) | — | Free office suite (Calc, Writer, Impress, etc.), successor to OpenOffice. |
 | [obsidian](packages/obsidian/) | [winget](plugins/winget/) | — | Markdown-based note-taking and knowledge base app. |
 
 ## Plugins

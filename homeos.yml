@@ -102,6 +102,10 @@ packages:
     plugin: winget
     params:
       id: 9WZDNCRFJ4MV
+  libreoffice:
+    plugin: winget
+    params:
+      id: TheDocumentFoundation.LibreOffice
   maven:
     depends_on:
     - mise
