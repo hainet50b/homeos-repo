@@ -38,6 +38,7 @@ homeos apply
 | [zoxide](packages/zoxide/) | [winget](plugins/winget/) | — | Smarter `cd` that jumps to frequently used directories. |
 | [claude-code](packages/claude-code/) | — | — | Anthropic's agentic coding tool for the terminal; official native install that auto-updates. |
 | [codex-cli](packages/codex-cli/) | [winget](plugins/winget/) | — | OpenAI's coding agent CLI for the terminal. |
+| [codex-cli-shim](packages/codex-cli-shim/) | — | codex-cli | Shim exposing the codex-cli binary as `codex`. |
 | [docker-desktop](packages/docker-desktop/) | [winget](plugins/winget/) | — | Docker container runtime and management GUI (WSL2 backend). |
 | [gradle](packages/gradle/) | [mise](plugins/mise/) | mise | Gradle build automation tool for JVM projects. |
 | [jdk-temurin-25](packages/jdk-temurin-25/) | [mise](plugins/mise/) | mise | Eclipse Temurin OpenJDK 25 (LTS) runtime and compiler. |

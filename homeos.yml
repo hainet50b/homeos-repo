@@ -32,6 +32,11 @@ packages:
     plugin: winget
     params:
       id: OpenAI.Codex
+  codex-cli-shim:
+    script_aliases:
+      update: install
+    depends_on:
+    - codex-cli
   coreutils:
     plugin: winget
     params:
