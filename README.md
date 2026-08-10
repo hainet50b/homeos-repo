@@ -63,6 +63,7 @@ homeos apply
 | [shellcheck](packages/shellcheck/) | [winget](plugins/winget/) | — | Static analysis linter for bash/sh shell scripts. |
 | [shfmt](packages/shfmt/) | [winget](plugins/winget/) | — | Formatter for bash/sh shell scripts. |
 | [starship](packages/starship/) | [winget](plugins/winget/) | — | Minimal, fast, customizable cross-shell prompt. |
+| [todoist](packages/todoist/) | [winget](plugins/winget/) | — | Task manager and to-do list app. |
 | [uv](packages/uv/) | [winget](plugins/winget/) | — | Fast Python package, venv, and tool manager (Astral). |
 | [vcredist-x64](packages/vcredist-x64/) | [winget](plugins/winget/) | — | Visual C++ 2015-2022 Redistributable (x64). |
 | [vcredist-x86](packages/vcredist-x86/) | [winget](plugins/winget/) | — | Visual C++ 2015-2022 Redistributable (x86). |

@@ -190,6 +190,10 @@ packages:
     plugin: winget
     params:
       id: Starship.Starship
+  todoist:
+    plugin: winget
+    params:
+      id: Doist.Todoist
   uv:
     plugin: winget
     params:
