@@ -73,6 +73,10 @@ packages:
     plugin: winget
     params:
       id: Git.Git
+  google-drive:
+    plugin: winget
+    params:
+      id: Google.GoogleDrive
   gradle:
     depends_on:
     - mise

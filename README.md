@@ -35,6 +35,7 @@ homeos apply
 | [fzf](packages/fzf/) | [winget](plugins/winget/) | — | General-purpose command-line fuzzy finder. |
 | [gh](packages/gh/) | [winget](plugins/winget/) | — | GitHub CLI for pull requests, issues, and Actions from the terminal. |
 | [git](packages/git/) | [winget](plugins/winget/) | — | Distributed version control system (Git for Windows). |
+| [google-drive](packages/google-drive/) | [winget](plugins/winget/) | — | Cloud storage sync and backup client by Google. |
 | [gradle](packages/gradle/) | [mise](plugins/mise/) | [mise](packages/mise/) | Gradle build automation tool for JVM projects. |
 | [homeos](packages/homeos/) | — | [git](packages/git/) | homeos itself, via the official install script. |
 | [jdk-temurin-25](packages/jdk-temurin-25/) | [mise](plugins/mise/) | [mise](packages/mise/) | Eclipse Temurin OpenJDK 25 (LTS) runtime and compiler. |
