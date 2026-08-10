@@ -206,6 +206,10 @@ packages:
     plugin: winget
     params:
       id: CommandLine.Wave
+  wispr-flow:
+    plugin: winget
+    params:
+      id: XP88W11PJ2V0T8
   wsl: {}
   wsl-ubuntu:
     depends_on:

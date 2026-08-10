@@ -67,6 +67,7 @@ homeos apply
 | [vcredist-x86](packages/vcredist-x86/) | [winget](plugins/winget/) | — | Visual C++ 2015-2022 Redistributable (x86). |
 | [vs-buildtools](packages/vs-buildtools/) | [winget](plugins/winget/) | — | MSVC C++ build tools and Windows SDK. |
 | [wave-terminal](packages/wave-terminal/) | [winget](plugins/winget/) | — | Open-source AI-native terminal by Command Line Inc. |
+| [wispr-flow](packages/wispr-flow/) | [winget](plugins/winget/) | — | AI-powered voice dictation app that turns speech into polished text in any app. |
 | [wsl](packages/wsl/) | — | — | Windows Subsystem for Linux, installed without a default distribution. |
 | [wsl-ubuntu](packages/wsl-ubuntu/) | — | [wsl](packages/wsl/) | Ubuntu (latest LTS) distribution registered under WSL2. |
 | [yazi](packages/yazi/) | [winget](plugins/winget/) | — | Blazing-fast terminal file manager written in Rust. |
