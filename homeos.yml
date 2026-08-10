@@ -168,6 +168,9 @@ packages:
     plugin: mise
     params:
       tool: python@3.13
+  readwise-reader:
+    script_aliases:
+      update: install
   ripgrep:
     plugin: winget
     params:
