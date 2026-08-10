@@ -29,6 +29,7 @@ homeos apply
 | [coreutils](packages/coreutils/) | [winget](plugins/winget/) | — | Native Unix-style command-line utilities by Microsoft. |
 | [delta](packages/delta/) | [winget](plugins/winget/) | — | Syntax-highlighting pager for git, diff, and grep output. |
 | [docker-desktop](packages/docker-desktop/) | [winget](plugins/winget/) | — | Docker container runtime and management GUI (WSL2 backend). |
+| [dropbox](packages/dropbox/) | [winget](plugins/winget/) | — | Cloud storage and file sync service. |
 | [eza](packages/eza/) | [winget](plugins/winget/) | — | Modern `ls` replacement with colors, icons, and Git status. |
 | [fd](packages/fd/) | [winget](plugins/winget/) | — | Simple, fast, user-friendly `find` alternative. |
 | [fzf](packages/fzf/) | [winget](plugins/winget/) | — | General-purpose command-line fuzzy finder. |

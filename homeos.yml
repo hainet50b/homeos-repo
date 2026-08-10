@@ -49,6 +49,10 @@ packages:
     plugin: winget
     params:
       id: Docker.DockerDesktop
+  dropbox:
+    plugin: winget
+    params:
+      id: Dropbox.Dropbox
   eza:
     plugin: winget
     params:
