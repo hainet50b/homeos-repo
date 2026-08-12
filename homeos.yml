@@ -172,6 +172,10 @@ packages:
     plugin: mise
     params:
       tool: python@3.13
+  raycast:
+    plugin: winget
+    params:
+      id: 9PFXXSHC64H3
   readwise-reader:
     script_aliases:
       update: install

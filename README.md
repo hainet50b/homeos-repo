@@ -59,6 +59,7 @@ homeos apply
 | [proton-pass](packages/proton-pass/) | [winget](plugins/winget/) | — | Password manager by Proton with end-to-end encryption. |
 | [proton-vpn](packages/proton-vpn/) | [winget](plugins/winget/) | — | VPN client by Proton with encrypted tunneling. |
 | [python](packages/python/) | [mise](plugins/mise/) | [mise](packages/mise/) | Python 3.13 runtime and pip. |
+| [raycast](packages/raycast/) | [winget](plugins/winget/) | — | Command-bar app launcher with file search, clipboard history, and AI features. |
 | [readwise-reader](packages/readwise-reader/) | — | — | Read-it-later app for articles, PDFs, and highlights (Windows alpha). |
 | [ripgrep](packages/ripgrep/) | [winget](plugins/winget/) | — | Fast recursive regex search tool (`rg`) that respects gitignore. |
 | [rustup](packages/rustup/) | [winget](plugins/winget/) | [vs-buildtools](packages/vs-buildtools/) | Rust toolchain installer and version manager. |
