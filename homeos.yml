@@ -53,6 +53,9 @@ packages:
     plugin: winget
     params:
       id: Dropbox.Dropbox
+  espalier:
+    script_aliases:
+      update: install
   eza:
     plugin: winget
     params:
