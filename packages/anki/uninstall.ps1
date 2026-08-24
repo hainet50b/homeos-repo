@@ -1,1 +1,1 @@
-winget uninstall --exact --id Anki.Anki
+winget uninstall --exact --id Anki.Anki --silent

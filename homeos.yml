@@ -1,5 +1,6 @@
 packages:
   anki:
+    archived: true
     plugin: winget
     params:
       id: Anki.Anki
