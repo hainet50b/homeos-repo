@@ -1,1 +1,1 @@
-winget uninstall --exact --id Amazon.Kindle
+winget uninstall --exact --id 9P8JQ0JJSTLL

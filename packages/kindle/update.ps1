@@ -1,1 +1,1 @@
-winget upgrade --exact --id Amazon.Kindle --silent --accept-source-agreements --accept-package-agreements
+winget upgrade --exact --id 9P8JQ0JJSTLL --silent --accept-source-agreements --accept-package-agreements

@@ -109,7 +109,7 @@ packages:
   kindle:
     plugin: winget
     params:
-      id: Amazon.Kindle
+      id: 9P8JQ0JJSTLL
   lazydocker:
     plugin: winget
     params:
