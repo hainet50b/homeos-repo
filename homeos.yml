@@ -106,6 +106,10 @@ packages:
     plugin: winget
     params:
       id: jqlang.jq
+  kindle:
+    plugin: winget
+    params:
+      id: Amazon.Kindle
   lazydocker:
     plugin: winget
     params:

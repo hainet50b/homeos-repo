@@ -41,6 +41,7 @@ homeos apply
 | [jdk-temurin-25](packages/jdk-temurin-25/) | [mise](plugins/mise/) | [mise](packages/mise/) | Eclipse Temurin OpenJDK 25 (LTS) runtime and compiler. |
 | [jetbrains-toolbox](packages/jetbrains-toolbox/) | [winget](plugins/winget/) | — | Launcher to install and manage JetBrains IDEs. |
 | [jq](packages/jq/) | [winget](plugins/winget/) | — | Lightweight command-line JSON processor. |
+| [kindle](packages/kindle/) | [winget](plugins/winget/) | — | Amazon Kindle e-book reading app. |
 | [lazydocker](packages/lazydocker/) | [winget](plugins/winget/) | — | Terminal UI for Docker and docker-compose. |
 | [lazygit](packages/lazygit/) | [winget](plugins/winget/) | — | Terminal UI for git commands. |
 | [lenovo-vantage](packages/lenovo-vantage/) (disabled) | [winget](plugins/winget/) | — | Driver and hardware management tool for Lenovo machines. |
