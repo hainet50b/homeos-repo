@@ -1,0 +1,1 @@
+gh skill list --agent universal --scope user --json skillName,path --jq '.[] | select(.skillName == "utsusemi-harness") | .path' | Where-Object { $_ } | ForEach-Object { Remove-Item -Recurse -Force $_ }
