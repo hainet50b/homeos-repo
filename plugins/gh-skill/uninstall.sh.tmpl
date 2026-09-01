@@ -1,0 +1,2 @@
+#!/usr/bin/env sh
+gh skill list --agent {{agent}} --scope user --json skillName,path --jq '.[] | select(.skillName == "{{skill}}") | .path' | while IFS= read -r path; do rm -rf "$path"; done

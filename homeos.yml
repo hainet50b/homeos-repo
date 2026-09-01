@@ -213,6 +213,22 @@ packages:
     plugin: winget
     params:
       id: Doist.Todoist
+  utsusemi-harness:
+    depends_on:
+    - gh
+    plugin: gh-skill
+    params:
+      agent: universal
+      repo: hainet50b/utsusemi-harness
+      skill: utsusemi-harness
+  utsusemi-harness-claude-code:
+    depends_on:
+    - gh
+    plugin: gh-skill
+    params:
+      agent: claude-code
+      repo: hainet50b/utsusemi-harness
+      skill: utsusemi-harness
   uv:
     plugin: winget
     params:
@@ -254,6 +270,8 @@ packages:
     params:
       id: ajeetdsouza.zoxide
 plugins:
+  gh-skill:
+    url: https://github.com/hainet50b/homeos-plugin-gh-skill
   mise:
     url: https://github.com/hainet50b/homeos-plugin-mise
   winget:

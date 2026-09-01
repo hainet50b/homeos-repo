@@ -1,0 +1,1 @@
+gh skill list --agent {{agent}} --scope user --json skillName,path --jq '.[] | select(.skillName == "{{skill}}") | .path' | Where-Object { $_ } | ForEach-Object { Remove-Item -Recurse -Force $_ }

@@ -80,10 +80,18 @@ homeos apply
 | [zed](packages/zed/) | [winget](plugins/winget/) | — | High-performance code editor written in Rust. |
 | [zoxide](packages/zoxide/) | [winget](plugins/winget/) | — | Smarter `cd` that jumps to frequently used directories. |
 
+## Skills
+
+| Skill | Plugin | Dependencies | Purpose |
+|---|---|---|---|
+| [utsusemi-harness](packages/utsusemi-harness/) | [gh-skill](plugins/gh-skill/) | [gh](packages/gh/) | Initializes an Utsusemi project, a harness that separates spec from implementation; universal scope (`~/.agents/skills`). |
+| [utsusemi-harness-claude-code](packages/utsusemi-harness-claude-code/) | [gh-skill](plugins/gh-skill/) | [gh](packages/gh/) | The same Utsusemi harness skill, installed into Claude Code's own skills directory. |
+
 ## Plugins
 
 | Plugin | Source | Description |
 |---|---|---|
+| [gh-skill](plugins/gh-skill/) | [hainet50b/homeos-plugin-gh-skill](https://github.com/hainet50b/homeos-plugin-gh-skill) | Agent skill plugin for homeos, backed by GitHub CLI (gh skill, preview). |
 | [mise](plugins/mise/) | [hainet50b/homeos-plugin-mise](https://github.com/hainet50b/homeos-plugin-mise) | mise tool version manager plugin for homeos. |
 | [winget](plugins/winget/) | [hainet50b/homeos-plugin-winget](https://github.com/hainet50b/homeos-plugin-winget) | WinGet package manager plugin for homeos. |
 
