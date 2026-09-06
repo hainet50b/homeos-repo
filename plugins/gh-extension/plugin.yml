@@ -1,0 +1,3 @@
+description: GitHub CLI extension plugin for homeos (gh extension).
+params:
+  - repo

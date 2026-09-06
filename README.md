@@ -34,6 +34,7 @@ homeos apply
 | [fd](packages/fd/) | [winget](plugins/winget/) | — | Simple, fast, user-friendly `find` alternative. |
 | [fzf](packages/fzf/) | [winget](plugins/winget/) | — | General-purpose command-line fuzzy finder. |
 | [gh](packages/gh/) | [winget](plugins/winget/) | — | GitHub CLI for pull requests, issues, and Actions from the terminal. |
+| [gh-markdown-preview](packages/gh-markdown-preview/) | [gh-extension](plugins/gh-extension/) | [gh](packages/gh/) | Previews Markdown in the browser as GitHub renders it. |
 | [git](packages/git/) | [winget](plugins/winget/) | — | Distributed version control system (Git for Windows). |
 | [google-drive](packages/google-drive/) | [winget](plugins/winget/) | — | Cloud storage sync and backup client by Google. |
 | [gradle](packages/gradle/) | [mise](plugins/mise/) | [mise](packages/mise/) | Gradle build automation tool for JVM projects. |
@@ -84,7 +85,7 @@ homeos apply
 
 | Skill | Plugin | Dependencies | Purpose |
 |---|---|---|---|
-| [hainet50b-skills](packages/hainet50b-skills/) | — | [gh](packages/gh/) | Every agent skill published in hainet50b/skills, synced for the universal and Claude Code agents. |
+| [hainet50b-skills](packages/hainet50b-skills/) | — | [gh](packages/gh/) | Every agent skill published in [hainet50b/skills](https://github.com/hainet50b/skills), synced for the universal and Claude Code agents. |
 | [homeos-inventory](packages/homeos-inventory/) | [gh-skill](plugins/gh-skill/) | [gh](packages/gh/) | Tells an AI agent which tools homeos has installed on this machine; universal scope (`~/.agents/skills`). |
 | [homeos-manage](packages/homeos-manage/) | [gh-skill](plugins/gh-skill/) | [gh](packages/gh/) | Teaches an AI agent to install, update, and uninstall through homeos; universal scope (`~/.agents/skills`). |
 | [utsusemi-harness](packages/utsusemi-harness/) | [gh-skill](plugins/gh-skill/) | [gh](packages/gh/) | Initializes an Utsusemi project, a harness that separates spec from implementation; universal scope (`~/.agents/skills`). |
@@ -93,6 +94,7 @@ homeos apply
 
 | Plugin | Source | Description |
 |---|---|---|
+| [gh-extension](plugins/gh-extension/) | [hainet50b/homeos-plugin-gh-extension](https://github.com/hainet50b/homeos-plugin-gh-extension) | GitHub CLI extension plugin for homeos (gh extension). |
 | [gh-skill](plugins/gh-skill/) | [hainet50b/homeos-plugin-gh-skill](https://github.com/hainet50b/homeos-plugin-gh-skill) | Agent skill plugin for homeos, backed by GitHub CLI (gh skill, preview). |
 | [mise](plugins/mise/) | [hainet50b/homeos-plugin-mise](https://github.com/hainet50b/homeos-plugin-mise) | mise tool version manager plugin for homeos. |
 | [winget](plugins/winget/) | [hainet50b/homeos-plugin-winget](https://github.com/hainet50b/homeos-plugin-winget) | WinGet package manager plugin for homeos. |
