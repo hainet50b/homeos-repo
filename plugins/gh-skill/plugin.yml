@@ -2,4 +2,4 @@ description: Agent skill plugin for homeos, backed by GitHub CLI (gh skill, prev
 params:
   - repo
   - skill
-  - agent
+  - agents
