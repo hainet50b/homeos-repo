@@ -21,30 +21,25 @@ Create a package using this plugin:
 
 ```sh
 homeos package add frontend-design --plugin gh-skill \
-  --param repo=anthropics/skills --param skill=frontend-design --param agent=universal
+  --param repo=anthropics/skills --param skill=frontend-design --param agents=universal
 ```
 
 Skills are installed at **user scope** — under your home directory — so they are available
 everywhere on the machine.
 
-## Choosing the agent target
+## Choosing agents
 
 `universal` installs into the shared `~/.agents/skills` directory defined by the
-[Agent Skills specification](https://agentskills.io/specification), so one package serves every
-agent that follows it. Reach for it first.
+[Agent Skills specification](https://agentskills.io/specification). Start there.
 
 Some agents load skills only from a directory of their own — Claude Code reads
-`~/.claude/skills`. Give each of those a package of its own:
+`~/.claude/skills`. To reach one of those as well, add it after `universal`, separated by a
+comma (`universal,claude-code`):
 
 ```sh
-homeos package add frontend-design-claude-code --plugin gh-skill \
-  --param repo=anthropics/skills --param skill=frontend-design --param agent=claude-code
+homeos package add frontend-design --plugin gh-skill \
+  --param repo=anthropics/skills --param skill=frontend-design --param agents=universal,claude-code
 ```
-
-`gh skill install` takes one agent at a time, and each target is a separate copy in a separate
-directory (`~/.claude/skills`, `~/.codex/skills`, `~/.config/opencode/skills`). One homeos package
-per agent keeps install, update, and uninstall pointed at exactly one of them. The homeos package
-name is independent of the skill name, so name it after the agent it serves.
 
 ## Requirements
 
@@ -56,7 +51,7 @@ with `--depends-on gh`, so homeos installs `gh` before the skill that needs it:
 
 ```sh
 homeos package add frontend-design --plugin gh-skill --depends-on gh \
-  --param repo=anthropics/skills --param skill=frontend-design --param agent=universal
+  --param repo=anthropics/skills --param skill=frontend-design --param agents=universal
 ```
 
 `gh skill` is a preview feature of GitHub CLI and may change without notice.
@@ -67,7 +62,7 @@ homeos package add frontend-design --plugin gh-skill --depends-on gh \
 |-----------|-------------|
 | `repo` | Source repository in `OWNER/REPO` form (e.g. `anthropics/skills`) |
 | `skill` | Skill name, as reported by `gh skill list` (e.g. `frontend-design`) |
-| `agent` | Target agent. `universal` for the shared `~/.agents/skills` directory, or a specific agent such as `claude-code`, `codex`, or `opencode` — see `gh skill install --help` for the full list |
+| `agents` | Agents the skill should reach, comma-separated (e.g. `universal,claude-code`) — see `gh skill install --help` for the accepted names |
 
 Pass the skill **name**, not a path within the repository. `gh skill install` accepts a path, but
 uninstall resolves the installed directory by matching the skill name, so a path leaves nothing
@@ -79,15 +74,15 @@ Use `gh skill search <query>` to find skills and the names to pass here.
 
 | Action | Command |
 |--------|---------|
-| install | `gh skill install {{repo}} {{skill}} --agent {{agent}} --scope user --force` |
+| install | `gh skill install {{repo}} {{skill}} --agent <agent> --scope user --force`, once per agent in `{{agents}}` |
 | update | same as install |
-| uninstall | `gh skill list ... --jq '...'` piped into a directory removal |
+| uninstall | `gh skill list --agent <agent> ... --jq '...'` piped into a directory removal, once per agent in `{{agents}}` |
 
 Install and update run the same command: re-installing fetches the latest version and overwrites
 what is there, so the action is idempotent and local edits to an installed skill are lost.
 
 Uninstall is a directory removal because `gh skill` has no uninstall command: it asks `gh skill list`
-for the installed path of `{{skill}}` under the given agent and scope, then removes it. Nothing is
+for the installed path of `{{skill}}` under each agent and scope, then removes it. Nothing is
 removed when the skill is not installed.
 
 ## License
