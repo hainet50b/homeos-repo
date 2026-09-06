@@ -73,6 +73,12 @@ packages:
     plugin: winget
     params:
       id: GitHub.cli
+  gh-markdown-preview:
+    depends_on:
+    - gh
+    plugin: gh-extension
+    params:
+      repo: yusukebe/gh-markdown-preview
   git:
     plugin: winget
     params:
@@ -283,6 +289,8 @@ packages:
     params:
       id: ajeetdsouza.zoxide
 plugins:
+  gh-extension:
+    url: https://github.com/hainet50b/homeos-plugin-gh-extension
   gh-skill:
     url: https://github.com/hainet50b/homeos-plugin-gh-skill
   mise:
