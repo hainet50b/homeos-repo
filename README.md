@@ -84,6 +84,7 @@ homeos apply
 
 | Skill | Plugin | Dependencies | Purpose |
 |---|---|---|---|
+| [hainet50b-skills](packages/hainet50b-skills/) | — | [gh](packages/gh/) | Every agent skill published in hainet50b/skills, synced for the universal and Claude Code agents. |
 | [homeos-inventory](packages/homeos-inventory/) | [gh-skill](plugins/gh-skill/) | [gh](packages/gh/) | Tells an AI agent which tools homeos has installed on this machine; universal scope (`~/.agents/skills`). |
 | [homeos-inventory-claude-code](packages/homeos-inventory-claude-code/) | [gh-skill](plugins/gh-skill/) | [gh](packages/gh/) | The same homeos inventory skill, installed into Claude Code's own skills directory. |
 | [homeos-manage](packages/homeos-manage/) | [gh-skill](plugins/gh-skill/) | [gh](packages/gh/) | Teaches an AI agent to install, update, and uninstall through homeos; universal scope (`~/.agents/skills`). |

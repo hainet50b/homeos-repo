@@ -87,6 +87,11 @@ packages:
     plugin: mise
     params:
       tool: gradle@9
+  hainet50b-skills:
+    script_aliases:
+      update: install
+    depends_on:
+    - gh
   homeos:
     script_aliases:
       update: install
