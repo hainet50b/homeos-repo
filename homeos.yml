@@ -92,6 +92,38 @@ packages:
       update: install
     depends_on:
     - git
+  homeos-inventory:
+    depends_on:
+    - gh
+    plugin: gh-skill
+    params:
+      agent: universal
+      repo: hainet50b/homeos
+      skill: homeos-inventory
+  homeos-inventory-claude-code:
+    depends_on:
+    - gh
+    plugin: gh-skill
+    params:
+      agent: claude-code
+      repo: hainet50b/homeos
+      skill: homeos-inventory
+  homeos-manage:
+    depends_on:
+    - gh
+    plugin: gh-skill
+    params:
+      agent: universal
+      repo: hainet50b/homeos
+      skill: homeos-manage
+  homeos-manage-claude-code:
+    depends_on:
+    - gh
+    plugin: gh-skill
+    params:
+      agent: claude-code
+      repo: hainet50b/homeos
+      skill: homeos-manage
   jdk-temurin-25:
     depends_on:
     - mise
