@@ -69,7 +69,7 @@ homeos apply
 | [shfmt](packages/shfmt/) | [winget](plugins/winget/) | — | Formatter for bash/sh shell scripts. |
 | [starship](packages/starship/) | [winget](plugins/winget/) | — | Minimal, fast, customizable cross-shell prompt. |
 | [todoist](packages/todoist/) | [winget](plugins/winget/) | — | Task manager and to-do list app. |
-| [uv](packages/uv/) | [winget](plugins/winget/) | — | Fast Python package, venv, and tool manager (Astral). |
+| [uv-mise](packages/uv-mise/) | [mise](plugins/mise/) | [mise](packages/mise/) | Fast Python package, venv, and tool manager. |
 | [vcredist-x64](packages/vcredist-x64/) | [winget](plugins/winget/) | — | Visual C++ 2015-2022 Redistributable (x64). |
 | [vcredist-x86](packages/vcredist-x86/) | [winget](plugins/winget/) | — | Visual C++ 2015-2022 Redistributable (x86). |
 | [vs-buildtools](packages/vs-buildtools/) | [winget](plugins/winget/) | — | MSVC C++ build tools and Windows SDK. |

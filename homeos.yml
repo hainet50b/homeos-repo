@@ -249,9 +249,16 @@ packages:
       repo: utsusemi-harness/utsusemi-harness
       skill: utsusemi-harness
   uv:
+    archived: true
     plugin: winget
     params:
       id: astral-sh.uv
+  uv-mise:
+    depends_on:
+    - mise
+    plugin: mise
+    params:
+      tool: uv
   vcredist-x64:
     plugin: winget
     params:
