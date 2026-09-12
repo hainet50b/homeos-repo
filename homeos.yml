@@ -189,6 +189,14 @@ packages:
     plugin: winget
     params:
       id: Obsidian.Obsidian
+  plain-language:
+    depends_on:
+    - gh
+    plugin: gh-skill
+    params:
+      agents: universal,claude-code
+      repo: hainet50b/plain-language
+      skill: plain-language
   powershell:
     plugin: winget
     params:

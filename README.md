@@ -89,6 +89,7 @@ homeos apply
 | [hainet50b-skills](packages/hainet50b-skills/) | — | [gh](packages/gh/) | Every agent skill published in [hainet50b/skills](https://github.com/hainet50b/skills), synced for the universal and Claude Code agents. |
 | [homeos-inventory](packages/homeos-inventory/) | [gh-skill](plugins/gh-skill/) | [gh](packages/gh/) | Tells an AI agent which tools homeos has installed on this machine; universal scope (`~/.agents/skills`). |
 | [homeos-manage](packages/homeos-manage/) | [gh-skill](plugins/gh-skill/) | [gh](packages/gh/) | Teaches an AI agent to install, update, and uninstall through homeos; universal scope (`~/.agents/skills`). |
+| [plain-language](packages/plain-language/) | [gh-skill](plugins/gh-skill/) | [gh](packages/gh/) | Applies plain-language principles to the prose an agent writes, edits, reviews, or translates. |
 | [utsusemi-harness](packages/utsusemi-harness/) | [gh-skill](plugins/gh-skill/) | [gh](packages/gh/) | Initializes an Utsusemi project, a harness that separates spec from implementation; universal scope (`~/.agents/skills`). |
 
 ## Plugins
