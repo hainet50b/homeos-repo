@@ -83,6 +83,14 @@ packages:
     plugin: winget
     params:
       id: Git.Git
+  git-filter-repo:
+    depends_on:
+    - mise
+    - uv-mise
+    - python
+    plugin: mise
+    params:
+      tool: git-filter-repo
   google-drive:
     plugin: winget
     params:
