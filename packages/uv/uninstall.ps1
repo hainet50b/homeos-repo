@@ -1,1 +1,1 @@
-winget uninstall --exact --id astral-sh.uv
+mise unuse -g -y "uv"
