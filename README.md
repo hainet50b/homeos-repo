@@ -36,6 +36,7 @@ homeos apply
 | [gh](packages/gh/) | [winget](plugins/winget/) | — | GitHub CLI for pull requests, issues, and Actions from the terminal. |
 | [gh-markdown-preview](packages/gh-markdown-preview/) | [gh-extension](plugins/gh-extension/) | [gh](packages/gh/) | Previews Markdown in the browser as GitHub renders it. |
 | [git](packages/git/) | [winget](plugins/winget/) | — | Distributed version control system (Git for Windows). |
+| [git-filter-repo](packages/git-filter-repo/) | [mise](plugins/mise/) | [mise](packages/mise/), [python](packages/python/), [uv-mise](packages/uv-mise/) | Rewrites Git history; replaces `git filter-branch`. |
 | [google-drive](packages/google-drive/) | [winget](plugins/winget/) | — | Cloud storage sync and backup client by Google. |
 | [gradle](packages/gradle/) | [mise](plugins/mise/) | [mise](packages/mise/) | Gradle build automation tool for JVM projects. |
 | [homeos](packages/homeos/) | — | [git](packages/git/) | homeos itself, via the official install script. |
