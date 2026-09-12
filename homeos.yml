@@ -86,7 +86,7 @@ packages:
   git-filter-repo:
     depends_on:
     - mise
-    - uv-mise
+    - uv
     - python
     plugin: mise
     params:
@@ -257,11 +257,6 @@ packages:
       repo: utsusemi-harness/utsusemi-harness
       skill: utsusemi-harness
   uv:
-    archived: true
-    plugin: winget
-    params:
-      id: astral-sh.uv
-  uv-mise:
     depends_on:
     - mise
     plugin: mise
