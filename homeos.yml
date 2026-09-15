@@ -197,6 +197,22 @@ packages:
       agents: universal,claude-code
       repo: hainet50b/plain-language
       skill: plain-language
+  plain-language-compare:
+    depends_on:
+    - gh
+    plugin: gh-skill
+    params:
+      agents: universal,claude-code
+      repo: hainet50b/plain-language
+      skill: plain-language-compare
+  plain-language-report:
+    depends_on:
+    - gh
+    plugin: gh-skill
+    params:
+      agents: universal,claude-code
+      repo: hainet50b/plain-language
+      skill: plain-language-report
   powershell:
     plugin: winget
     params:

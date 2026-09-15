@@ -90,6 +90,8 @@ homeos apply
 | [homeos-inventory](packages/homeos-inventory/) | [gh-skill](plugins/gh-skill/) | [gh](packages/gh/) | Tells an AI agent which tools homeos has installed on this machine. |
 | [homeos-manage](packages/homeos-manage/) | [gh-skill](plugins/gh-skill/) | [gh](packages/gh/) | Teaches an AI agent to install, update, and uninstall through homeos. |
 | [plain-language](packages/plain-language/) | [gh-skill](plugins/gh-skill/) | [gh](packages/gh/) | Applies plain-language principles to the prose an agent writes, edits, reviews, or translates. |
+| [plain-language-compare](packages/plain-language-compare/) | [gh-skill](plugins/gh-skill/) | [gh](packages/gh/) | Runs one prompt with and without the plain-language skill and shows the replies side by side. |
+| [plain-language-report](packages/plain-language-report/) | [gh-skill](plugins/gh-skill/) | [gh](packages/gh/) | Records an expression that feels unnatural to a reader as a report, with the prompt that produces it. |
 | [utsusemi-harness](packages/utsusemi-harness/) | [gh-skill](plugins/gh-skill/) | [gh](packages/gh/) | Initializes an Utsusemi project, a harness that separates spec from implementation. |
 
 ## Plugins
