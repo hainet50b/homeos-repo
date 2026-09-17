@@ -318,6 +318,10 @@ packages:
     plugin: winget
     params:
       id: ZedIndustries.Zed
+  zoom:
+    plugin: winget
+    params:
+      id: Zoom.Zoom
   zoxide:
     plugin: winget
     params:
