@@ -4,14 +4,6 @@ packages:
     plugin: winget
     params:
       id: Anki.Anki
-  aws-auth:
-    depends_on:
-    - gh
-    plugin: gh-skill
-    params:
-      agents: universal,claude-code
-      repo: aws/agent-toolkit-for-aws
-      skill: core-skills/aws-auth
   aws-billing-and-cost-management:
     depends_on:
     - gh
@@ -20,6 +12,14 @@ packages:
       agents: universal,claude-code
       repo: aws/agent-toolkit-for-aws
       skill: core-skills/aws-billing-and-cost-management
+  aws-iam:
+    depends_on:
+    - gh
+    plugin: gh-skill
+    params:
+      agents: universal,claude-code
+      repo: aws/agent-toolkit-for-aws
+      skill: core-skills/aws-iam
   awscli:
     plugin: winget
     params:
