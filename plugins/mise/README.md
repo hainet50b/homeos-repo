@@ -2,7 +2,7 @@
 
 ![License](https://img.shields.io/badge/license-MIT%20OR%20Apache--2.0-blue)
 
-A [homeos](https://github.com/hainet50b/homeos) plugin for [mise](https://github.com/jdx/mise), the polyglot tool version manager.
+A [homeos](https://github.com/homeos-dev/homeos) plugin for [mise](https://github.com/jdx/mise), the polyglot tool version manager.
 
 ## Usage
 

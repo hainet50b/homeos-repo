@@ -2,7 +2,7 @@
 
 ![License](https://img.shields.io/badge/license-MIT%20OR%20Apache--2.0-blue)
 
-A [homeos](https://github.com/hainet50b/homeos) plugin for
+A [homeos](https://github.com/homeos-dev/homeos) plugin for
 [GitHub CLI](https://cli.github.com/) extensions, backed by `gh extension`.
 
 ## Usage

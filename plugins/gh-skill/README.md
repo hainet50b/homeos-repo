@@ -2,7 +2,7 @@
 
 ![License](https://img.shields.io/badge/license-MIT%20OR%20Apache--2.0-blue)
 
-A [homeos](https://github.com/hainet50b/homeos) plugin for agent skills, backed by
+A [homeos](https://github.com/homeos-dev/homeos) plugin for agent skills, backed by
 [GitHub CLI](https://cli.github.com/)'s `gh skill`.
 
 An agent skill is a directory of instructions an AI coding agent loads on demand. This plugin
