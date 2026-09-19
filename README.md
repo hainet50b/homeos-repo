@@ -93,12 +93,15 @@ homeos apply
 
 | Skill | Plugin | Dependencies | Purpose |
 |---|---|---|---|
+| [aws-auth](packages/aws-auth/) | [gh-skill](plugins/gh-skill/) | [gh](packages/gh/) | AWS authentication and authorization fundamentals, from the Agent Toolkit for AWS. |
+| [aws-billing-and-cost-management](packages/aws-billing-and-cost-management/) | [gh-skill](plugins/gh-skill/) | [gh](packages/gh/) | AWS Budgets, Cost Explorer, pricing and Free Tier guidance, from the Agent Toolkit for AWS. |
 | [hainet50b-skills](packages/hainet50b-skills/) | — | [gh](packages/gh/) | Every agent skill published in [hainet50b/skills](https://github.com/hainet50b/skills). |
 | [homeos-inventory](packages/homeos-inventory/) | [gh-skill](plugins/gh-skill/) | [gh](packages/gh/) | Tells an AI agent which tools homeos has installed on this machine. |
 | [homeos-manage](packages/homeos-manage/) | [gh-skill](plugins/gh-skill/) | [gh](packages/gh/) | Teaches an AI agent to install, update, and uninstall through homeos. |
 | [plain-language](packages/plain-language/) | [gh-skill](plugins/gh-skill/) | [gh](packages/gh/) | Applies plain-language principles to the prose an agent writes, edits, reviews, or translates. |
 | [plain-language-compare](packages/plain-language-compare/) | [gh-skill](plugins/gh-skill/) | [gh](packages/gh/) | Runs one prompt with and without the plain-language skill and shows the replies side by side. |
 | [plain-language-report](packages/plain-language-report/) | [gh-skill](plugins/gh-skill/) | [gh](packages/gh/) | Records an expression that feels unnatural to a reader as a report, with the prompt that produces it. |
+| [signing-in-to-aws](packages/signing-in-to-aws/) | [gh-skill](plugins/gh-skill/) | [gh](packages/gh/) | Signing in to AWS with IAM Identity Center, profiles and credentials, from the Agent Toolkit for AWS. |
 | [utsusemi-harness](packages/utsusemi-harness/) | [gh-skill](plugins/gh-skill/) | [gh](packages/gh/) | Initializes an Utsusemi project, a harness that separates spec from implementation. |
 
 ## Plugins
