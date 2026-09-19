@@ -36,7 +36,7 @@ homeos apply
 | [gh](packages/gh/) | [winget](plugins/winget/) | — | GitHub CLI for pull requests, issues, and Actions from the terminal. |
 | [gh-markdown-preview](packages/gh-markdown-preview/) | [gh-extension](plugins/gh-extension/) | [gh](packages/gh/) | Previews Markdown in the browser as GitHub renders it. |
 | [git](packages/git/) | [winget](plugins/winget/) | — | Distributed version control system (Git for Windows). |
-| [git-filter-repo](packages/git-filter-repo/) | [mise](plugins/mise/) | [mise](packages/mise/), [python](packages/python/), [uv-mise](packages/uv-mise/) | Rewrites Git history; replaces `git filter-branch`. |
+| [git-filter-repo](packages/git-filter-repo/) | [mise](plugins/mise/) | [mise](packages/mise/), [python](packages/python/), [uv](packages/uv/) | Rewrites Git history; replaces `git filter-branch`. |
 | [google-drive](packages/google-drive/) | [winget](plugins/winget/) | — | Cloud storage sync and backup client by Google. |
 | [gradle](packages/gradle/) | [mise](plugins/mise/) | [mise](packages/mise/) | Gradle build automation tool for JVM projects. |
 | [homeos](packages/homeos/) | — | [git](packages/git/) | homeos itself, via the official install script. |
@@ -70,7 +70,7 @@ homeos apply
 | [shfmt](packages/shfmt/) | [winget](plugins/winget/) | — | Formatter for bash/sh shell scripts. |
 | [starship](packages/starship/) | [winget](plugins/winget/) | — | Minimal, fast, customizable cross-shell prompt. |
 | [todoist](packages/todoist/) | [winget](plugins/winget/) | — | Task manager and to-do list app. |
-| [uv-mise](packages/uv-mise/) | [mise](plugins/mise/) | [mise](packages/mise/) | Fast Python package, venv, and tool manager. |
+| [uv](packages/uv/) | [mise](plugins/mise/) | [mise](packages/mise/) | Fast Python package, venv, and tool manager. |
 | [vcredist-x64](packages/vcredist-x64/) | [winget](plugins/winget/) | — | Visual C++ 2015-2022 Redistributable (x64). |
 | [vcredist-x86](packages/vcredist-x86/) | [winget](plugins/winget/) | — | Visual C++ 2015-2022 Redistributable (x86). |
 | [vs-buildtools](packages/vs-buildtools/) | [winget](plugins/winget/) | — | MSVC C++ build tools and Windows SDK. |
