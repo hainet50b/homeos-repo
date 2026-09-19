@@ -117,7 +117,7 @@ packages:
     plugin: gh-skill
     params:
       agents: universal,claude-code
-      repo: hainet50b/homeos
+      repo: homeos-dev/homeos
       skill: homeos-inventory
   homeos-manage:
     depends_on:
@@ -125,7 +125,7 @@ packages:
     plugin: gh-skill
     params:
       agents: universal,claude-code
-      repo: hainet50b/homeos
+      repo: homeos-dev/homeos
       skill: homeos-manage
   jdk-temurin-25:
     depends_on:
@@ -328,10 +328,10 @@ packages:
       id: ajeetdsouza.zoxide
 plugins:
   gh-extension:
-    url: https://github.com/hainet50b/homeos-plugin-gh-extension
+    url: https://github.com/homeos-dev/homeos-plugin-gh-extension
   gh-skill:
-    url: https://github.com/hainet50b/homeos-plugin-gh-skill
+    url: https://github.com/homeos-dev/homeos-plugin-gh-skill
   mise:
-    url: https://github.com/hainet50b/homeos-plugin-mise
+    url: https://github.com/homeos-dev/homeos-plugin-mise
   winget:
-    url: https://github.com/hainet50b/homeos-plugin-winget
+    url: https://github.com/homeos-dev/homeos-plugin-winget

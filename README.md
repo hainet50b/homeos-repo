@@ -1,7 +1,7 @@
 # homeos-repo
 
 This repository is the source of truth for the user's software setup,
-managed by [homeos](https://github.com/hainet50b/homeos). The full
+managed by [homeos](https://github.com/homeos-dev/homeos). The full
 machine-readable definition lives in [`homeos.yml`](homeos.yml); the
 sections below are a human-friendly view kept in sync with it.
 
@@ -99,10 +99,10 @@ homeos apply
 
 | Plugin | Source | Description |
 |---|---|---|
-| [gh-extension](plugins/gh-extension/) | [hainet50b/homeos-plugin-gh-extension](https://github.com/hainet50b/homeos-plugin-gh-extension) | GitHub CLI extension plugin for homeos (gh extension). |
-| [gh-skill](plugins/gh-skill/) | [hainet50b/homeos-plugin-gh-skill](https://github.com/hainet50b/homeos-plugin-gh-skill) | Agent skill plugin for homeos, backed by GitHub CLI (gh skill, preview). |
-| [mise](plugins/mise/) | [hainet50b/homeos-plugin-mise](https://github.com/hainet50b/homeos-plugin-mise) | mise tool version manager plugin for homeos. |
-| [winget](plugins/winget/) | [hainet50b/homeos-plugin-winget](https://github.com/hainet50b/homeos-plugin-winget) | WinGet package manager plugin for homeos. |
+| [gh-extension](plugins/gh-extension/) | [homeos-dev/homeos-plugin-gh-extension](https://github.com/homeos-dev/homeos-plugin-gh-extension) | GitHub CLI extension plugin for homeos (gh extension). |
+| [gh-skill](plugins/gh-skill/) | [homeos-dev/homeos-plugin-gh-skill](https://github.com/homeos-dev/homeos-plugin-gh-skill) | Agent skill plugin for homeos, backed by GitHub CLI (gh skill, preview). |
+| [mise](plugins/mise/) | [homeos-dev/homeos-plugin-mise](https://github.com/homeos-dev/homeos-plugin-mise) | mise tool version manager plugin for homeos. |
+| [winget](plugins/winget/) | [homeos-dev/homeos-plugin-winget](https://github.com/homeos-dev/homeos-plugin-winget) | WinGet package manager plugin for homeos. |
 
 ## Notes
 
@@ -110,4 +110,4 @@ homeos apply
 
 ---
 
-*Managed by [homeos](https://github.com/hainet50b/homeos).*
+*Managed by [homeos](https://github.com/homeos-dev/homeos).*

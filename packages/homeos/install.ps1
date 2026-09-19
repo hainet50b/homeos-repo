@@ -1,1 +1,1 @@
-irm https://raw.githubusercontent.com/hainet50b/homeos/main/install.ps1 | iex
+irm https://raw.githubusercontent.com/homeos-dev/homeos/main/install.ps1 | iex
