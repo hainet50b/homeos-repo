@@ -16,6 +16,7 @@ homeos apply
 
 | Package | Plugin | Dependencies | Purpose |
 |---|---|---|---|
+| [awscli](packages/awscli/) | [winget](plugins/winget/) | — | AWS CLI v2 for working with AWS accounts. |
 | [bat](packages/bat/) | [winget](plugins/winget/) | — | `cat` clone with syntax highlighting and Git integration. |
 | [brave](packages/brave/) | [winget](plugins/winget/) | — | Privacy-focused Chromium-based web browser. |
 | [chatgpt](packages/chatgpt/) | [winget](plugins/winget/) | — | Official ChatGPT desktop app by OpenAI. |
@@ -39,11 +40,14 @@ homeos apply
 | [git-filter-repo](packages/git-filter-repo/) | [mise](plugins/mise/) | [mise](packages/mise/), [python](packages/python/), [uv](packages/uv/) | Rewrites Git history; replaces `git filter-branch`. |
 | [google-drive](packages/google-drive/) | [winget](plugins/winget/) | — | Cloud storage sync and backup client by Google. |
 | [gradle](packages/gradle/) | [mise](plugins/mise/) | [mise](packages/mise/) | Gradle build automation tool for JVM projects. |
+| [helm](packages/helm/) | [mise](plugins/mise/) | [mise](packages/mise/) | Kubernetes package manager (Helm 4). |
 | [homeos](packages/homeos/) | — | [git](packages/git/) | homeos itself, via the official install script. |
 | [jdk-temurin-25](packages/jdk-temurin-25/) | [mise](plugins/mise/) | [mise](packages/mise/) | Eclipse Temurin OpenJDK 25 (LTS) runtime and compiler. |
 | [jetbrains-toolbox](packages/jetbrains-toolbox/) | [winget](plugins/winget/) | — | Launcher to install and manage JetBrains IDEs. |
 | [jq](packages/jq/) | [winget](plugins/winget/) | — | Lightweight command-line JSON processor. |
+| [k9s](packages/k9s/) | [winget](plugins/winget/) | — | Terminal UI for Kubernetes clusters. |
 | [kindle](packages/kindle/) | [winget](plugins/winget/) | — | Amazon Kindle e-book reading app. |
+| [kubectl](packages/kubectl/) | [mise](plugins/mise/) | [mise](packages/mise/) | Kubernetes command-line client (1.37). |
 | [lazydocker](packages/lazydocker/) | [winget](plugins/winget/) | — | Terminal UI for Docker and docker-compose. |
 | [lazygit](packages/lazygit/) | [winget](plugins/winget/) | — | Terminal UI for git commands. |
 | [lenovo-vantage](packages/lenovo-vantage/) (disabled) | [winget](plugins/winget/) | — | Driver and hardware management tool for Lenovo machines. |
@@ -69,6 +73,7 @@ homeos apply
 | [shellcheck](packages/shellcheck/) | [winget](plugins/winget/) | — | Static analysis linter for bash/sh shell scripts. |
 | [shfmt](packages/shfmt/) | [winget](plugins/winget/) | — | Formatter for bash/sh shell scripts. |
 | [starship](packages/starship/) | [winget](plugins/winget/) | — | Minimal, fast, customizable cross-shell prompt. |
+| [terraform](packages/terraform/) | [mise](plugins/mise/) | [mise](packages/mise/) | Infrastructure-as-code CLI (Terraform 1.16). |
 | [todoist](packages/todoist/) | [winget](plugins/winget/) | — | Task manager and to-do list app. |
 | [uv](packages/uv/) | [mise](plugins/mise/) | [mise](packages/mise/) | Fast Python package, venv, and tool manager. |
 | [vcredist-x64](packages/vcredist-x64/) | [winget](plugins/winget/) | — | Visual C++ 2015-2022 Redistributable (x64). |

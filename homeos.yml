@@ -4,6 +4,10 @@ packages:
     plugin: winget
     params:
       id: Anki.Anki
+  awscli:
+    plugin: winget
+    params:
+      id: Amazon.AWSCLI
   bat:
     plugin: winget
     params:
@@ -106,6 +110,12 @@ packages:
       update: install
     depends_on:
     - gh
+  helm:
+    depends_on:
+    - mise
+    plugin: mise
+    params:
+      tool: helm@4
   homeos:
     script_aliases:
       update: install
@@ -141,10 +151,20 @@ packages:
     plugin: winget
     params:
       id: jqlang.jq
+  k9s:
+    plugin: winget
+    params:
+      id: Derailed.k9s
   kindle:
     plugin: winget
     params:
       id: 9P8JQ0JJSTLL
+  kubectl:
+    depends_on:
+    - mise
+    plugin: mise
+    params:
+      tool: kubectl@1.37
   lazydocker:
     plugin: winget
     params:
@@ -268,6 +288,12 @@ packages:
     plugin: winget
     params:
       id: Starship.Starship
+  terraform:
+    depends_on:
+    - mise
+    plugin: mise
+    params:
+      tool: terraform@1.16
   todoist:
     plugin: winget
     params:

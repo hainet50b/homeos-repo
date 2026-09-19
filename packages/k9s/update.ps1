@@ -1,0 +1,1 @@
+winget upgrade --exact --id Derailed.k9s --silent --accept-source-agreements --accept-package-agreements
