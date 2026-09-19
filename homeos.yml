@@ -318,6 +318,11 @@ packages:
     plugin: winget
     params:
       id: ZedIndustries.Zed
+  zed-http-client:
+    script_aliases:
+      update: install
+    depends_on:
+    - zed
   zoom:
     plugin: winget
     params:

@@ -80,6 +80,7 @@ homeos apply
 | [wsl-ubuntu](packages/wsl-ubuntu/) | — | [wsl](packages/wsl/) | Ubuntu (latest LTS) distribution registered under WSL2. |
 | [yazi](packages/yazi/) | [winget](plugins/winget/) | — | Blazing-fast terminal file manager written in Rust. |
 | [zed](packages/zed/) | [winget](plugins/winget/) | — | High-performance code editor written in Rust. |
+| [zed-http-client](packages/zed-http-client/) | — | [zed](packages/zed/) | `httpc` binary required by the [hainet50b/zed-http-client](https://github.com/hainet50b/zed-http-client) Zed extension. |
 | [zoom](packages/zoom/) | [winget](plugins/winget/) | — | Video conferencing app. |
 | [zoxide](packages/zoxide/) | [winget](plugins/winget/) | — | Smarter `cd` that jumps to frequently used directories. |
 
