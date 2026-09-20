@@ -4,6 +4,20 @@ packages:
     plugin: winget
     params:
       id: Anki.Anki
+  aws-billing-and-cost-management:
+    depends_on:
+    - awscli
+    plugin: aws-agent-toolkit
+    params:
+      agents: universal,claude-code
+      skill: aws-billing-and-cost-management
+  aws-iam:
+    depends_on:
+    - awscli
+    plugin: aws-agent-toolkit
+    params:
+      agents: universal,claude-code
+      skill: aws-iam
   awscli:
     plugin: winget
     params:
@@ -284,6 +298,13 @@ packages:
     plugin: winget
     params:
       id: mvdan.shfmt
+  signing-in-to-aws:
+    depends_on:
+    - awscli
+    plugin: aws-agent-toolkit
+    params:
+      agents: universal,claude-code
+      skill: signing-in-to-aws
   starship:
     plugin: winget
     params:
@@ -358,6 +379,8 @@ packages:
     params:
       id: ajeetdsouza.zoxide
 plugins:
+  aws-agent-toolkit:
+    url: https://github.com/homeos-dev/homeos-plugin-aws-agent-toolkit
   gh-extension:
     url: https://github.com/homeos-dev/homeos-plugin-gh-extension
   gh-skill:
