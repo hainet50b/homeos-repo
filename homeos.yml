@@ -4,22 +4,6 @@ packages:
     plugin: winget
     params:
       id: Anki.Anki
-  aws-billing-and-cost-management:
-    depends_on:
-    - gh
-    plugin: gh-skill
-    params:
-      agents: universal,claude-code
-      repo: aws/agent-toolkit-for-aws
-      skill: core-skills/aws-billing-and-cost-management
-  aws-iam:
-    depends_on:
-    - gh
-    plugin: gh-skill
-    params:
-      agents: universal,claude-code
-      repo: aws/agent-toolkit-for-aws
-      skill: core-skills/aws-iam
   awscli:
     plugin: winget
     params:
@@ -300,14 +284,6 @@ packages:
     plugin: winget
     params:
       id: mvdan.shfmt
-  signing-in-to-aws:
-    depends_on:
-    - gh
-    plugin: gh-skill
-    params:
-      agents: universal,claude-code
-      repo: aws/agent-toolkit-for-aws
-      skill: core-skills/signing-in-to-aws
   starship:
     plugin: winget
     params:
