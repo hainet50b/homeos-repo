@@ -94,7 +94,6 @@ homeos apply
 | Skill | Plugin | Dependencies | Purpose |
 |---|---|---|---|
 | [aws-billing-and-cost-management](packages/aws-billing-and-cost-management/) | [aws-agent-toolkit](plugins/aws-agent-toolkit/) | [awscli](packages/awscli/) | AWS Budgets, Cost Explorer, pricing and Free Tier guidance, from the Agent Toolkit for AWS. |
-| [aws-iam](packages/aws-iam/) | [aws-agent-toolkit](plugins/aws-agent-toolkit/) | [awscli](packages/awscli/) | IAM roles, policies, STS and Identity Center pitfalls and workflows, from the Agent Toolkit for AWS. |
 | [hainet50b-skills](packages/hainet50b-skills/) | — | [gh](packages/gh/) | Every agent skill published in [hainet50b/skills](https://github.com/hainet50b/skills). |
 | [homeos-inventory](packages/homeos-inventory/) | [gh-skill](plugins/gh-skill/) | [gh](packages/gh/) | Tells an AI agent which tools homeos has installed on this machine. |
 | [homeos-manage](packages/homeos-manage/) | [gh-skill](plugins/gh-skill/) | [gh](packages/gh/) | Teaches an AI agent to install, update, and uninstall through homeos. |
