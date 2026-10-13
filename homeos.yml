@@ -189,6 +189,7 @@ packages:
     params:
       id: 9WZDNCRFJ4MV
   libreoffice:
+    archived: true
     plugin: winget
     params:
       id: TheDocumentFoundation.LibreOffice
@@ -312,6 +313,7 @@ packages:
     params:
       tool: terraform@1.16
   todoist:
+    archived: true
     plugin: winget
     params:
       id: Doist.Todoist

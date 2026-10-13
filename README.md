@@ -52,7 +52,6 @@ homeos apply
 | [lazydocker](packages/lazydocker/) | [winget](plugins/winget/) | — | Terminal UI for Docker and docker-compose. |
 | [lazygit](packages/lazygit/) | [winget](plugins/winget/) | — | Terminal UI for git commands. |
 | [lenovo-vantage](packages/lenovo-vantage/) (disabled) | [winget](plugins/winget/) | — | Driver and hardware management tool for Lenovo machines. |
-| [libreoffice](packages/libreoffice/) | [winget](plugins/winget/) | — | Free office suite (Calc, Writer, Impress, etc.), successor to OpenOffice. |
 | [maven](packages/maven/) | [mise](plugins/mise/) | [mise](packages/mise/) | Apache Maven build and dependency management tool for Java. |
 | [mise](packages/mise/) | [winget](plugins/winget/) | — | Dev environment manager for languages, env vars, and tasks. |
 | [monaspace-nerd-font](packages/monaspace-nerd-font/) | — | — | Nerd Fonts-patched Monaspace (Mono), per-user install. |
@@ -75,7 +74,6 @@ homeos apply
 | [shfmt](packages/shfmt/) | [winget](plugins/winget/) | — | Formatter for bash/sh shell scripts. |
 | [starship](packages/starship/) | [winget](plugins/winget/) | — | Minimal, fast, customizable cross-shell prompt. |
 | [terraform](packages/terraform/) | [mise](plugins/mise/) | [mise](packages/mise/) | Infrastructure-as-code CLI (Terraform 1.16). |
-| [todoist](packages/todoist/) | [winget](plugins/winget/) | — | Task manager and to-do list app. |
 | [uv](packages/uv/) | [mise](plugins/mise/) | [mise](packages/mise/) | Fast Python package, venv, and tool manager. |
 | [vcredist-x64](packages/vcredist-x64/) | [winget](plugins/winget/) | — | Visual C++ 2015-2022 Redistributable (x64). |
 | [vcredist-x86](packages/vcredist-x86/) | [winget](plugins/winget/) | — | Visual C++ 2015-2022 Redistributable (x86). |
