@@ -32,6 +32,7 @@ homeos apply
 | [dropbox](packages/dropbox/) | [winget](plugins/winget/) | — | Cloud storage and file sync service. |
 | [espalier](packages/espalier/) | — | — | Declarative plan/diff/apply CLI for Elastic Stack assets. |
 | [eza](packages/eza/) | [winget](plugins/winget/) | — | Modern `ls` replacement with colors, icons, and Git status. |
+| [fabric](packages/fabric/) | — | — | Desktop app for Fabric, an AI workspace for notes, files, and bookmarks. |
 | [fd](packages/fd/) | [winget](plugins/winget/) | — | Simple, fast, user-friendly `find` alternative. |
 | [fzf](packages/fzf/) | [winget](plugins/winget/) | — | General-purpose command-line fuzzy finder. |
 | [gh](packages/gh/) | [winget](plugins/winget/) | — | GitHub CLI for pull requests, issues, and Actions from the terminal. |

@@ -72,6 +72,9 @@ packages:
     plugin: winget
     params:
       id: eza-community.eza
+  fabric:
+    script_aliases:
+      update: install
   fd:
     plugin: winget
     params:
